@@ -11,7 +11,7 @@ Under the hood, Secure Hasher is quite obviously flawed relying on an old school
 ## Usage
 
 ```ruby
-SecureHasher.secure_hash('mypassword','salt')
+SecureHasher.secure_hash(password: 'mypassword', salt: 'salt')
 => "sayVb7E97UXnw"
 ```
 
