@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Secure Hasher provides a simple Ruby API to to securely encrypt passwords.}
   spec.description   = %q{Under the hood, Secure Hasher is quite obviously flawed relying on an old school unix-style crypt method. This gem provides a perfect example of how not to manage passwords.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/picatz/secure_hasher"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
