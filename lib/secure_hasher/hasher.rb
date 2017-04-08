@@ -7,11 +7,11 @@ module SecureHasher
   # @raise          [ArgumentError] No password provided. 
   # 
   # @example Basic Usage
-  #   SecureHasher.hash('mypassword')
+  #   SecureHasher.hash(password: 'mypassword')
   #   # => "xx.sEzWY1w1qk"
   #
   # @example Advanced Usage
-  #   SecureHasher.hash('mypassword', 'xy')
+  #   SecureHasher.hash(password: 'mypassword', salt: 'xy')
   #   # => "xyoxiBrqcbujE"
   #
   def self.secure_hash(password: false, salt: 'xx')
